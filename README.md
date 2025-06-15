@@ -1,67 +1,34 @@
 # HW3 You Choose
-
-Information on using this cookiecutter
-
-Development workflows
-=======================
-
-Create new project
-----------------------
-
-You've already done this if you are reading this file. You ran:
-
-```bash
-cookiecutter gh:haleymcdowell/cookiecutter-datascience-simple
-```
-
-Put project under version control
----------------------------------
-
-Let's get version control set up. You don't absolutely have to do this, but you should. For the local repository, do;
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-For the remote repository, make a github repository named HW3 You Choose, then do;
-
-```bash
-git remote add origin git@github.com:haleymcdowell/HW3 You Choose.git
-git branch -M main
-git push -u origin main
-```
-
-Great. Using version control is good.
-
-
-Folder structure
------------------
-
-Here's the folder structure that gets created by `cookiecutter-datascience-simple`:
-
-	├── HW3 You Choose	<- Your notebooks and scripts will live in the main project folder
-		│   .gitignore					<- Common file types for git to ignore
-		│   README.md					<- The top-level README for developers (you) using this project
-		│   template-nb.ipynb			<- A Jupyter notebook template
-		│
-		├───data						<- Final and intermediate data
-		│   └───raw						<- The original, immutable data dump
-		│
-		├───docs
-		│       notes.md				<- Simple markdown template for project notes
-		│
-		└───output
-				readme.md				<- Guidance for using this folder
-
+## By: Haley McDowell
 
 Documentation
 --------------
+This project utilizes the AirNow API to pull air quality data near Oakland University. The Seaborn and Pandas packages are then used to analyze.
 
-In this very simple project structure template, we've just included a markdown file with some typical
-section headings to use for project notes. Expand as desired. Later in the semester we will learn how to
-use Sphinx with restructuredText to write and generate documentation.
+Important Documents
+-----------------
+ - mcdowell_hw3.ipynb - This is the Jupyter notebook containing all code and analysis for this project.
+ - hw3_you_choose.md - This is the markdown document containing the assignment requirements.
 
+Folder structure
+-----------------
+Here's the folder structure:
+
+	├── HW3 You Choose
+	  |   .env
+		│   .gitignore	
+		|   aqi_info.png
+		|   hw3_you_choose.md
+		│   mcdowell_hw3.ipynb				
+		│   README.md	
+		│
+		├───data					
+		│   └───raw						
+		│
+		├───docs
+		│       notes.md				
+		│
+		└───output
+				readme.md				
 
 

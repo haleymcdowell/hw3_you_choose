@@ -51,3 +51,9 @@ MANIFEST
 
 # Sphinx documentation
 docs/_build/
+
+# environment variables
+.env
+
+# Data folder
+data/
