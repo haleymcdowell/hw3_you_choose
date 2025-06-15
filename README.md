@@ -15,8 +15,8 @@ Folder structure
 Here's the folder structure:
 
 	├── HW3 You Choose
-	  |   .env
-		│   .gitignore	
+		│   .gitignore
+		|   .env
 		|   aqi_info.png
 		|   hw3_you_choose.md
 		│   mcdowell_hw3.ipynb				
